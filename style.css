@@ -121,7 +121,7 @@ body{
     }
 }
 .dynamic-txts li span{
-    position: relative;
+    position: absolute;
 }
 /*.dynamic-txts li span::after{
     content: "";
