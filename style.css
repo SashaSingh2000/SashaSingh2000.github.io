@@ -100,12 +100,12 @@ nav ul li a:hover::after{
     display: flex;
     align-items: center;
 }
-.text-box a span{
+/*.text-box a span{
     font-size: 30px;
     line-height: 15px;
     margin-left: 5px;
 
-}
+}*/
 .social-icons{
     position: absolute;
     right: 5%;
