@@ -56,3 +56,8 @@ nav ul li a::after{
 nav ul lia a:hover::after{
     width: 50%;
 }
+.text-box{
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+}
