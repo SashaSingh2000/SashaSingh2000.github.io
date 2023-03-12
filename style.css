@@ -21,7 +21,7 @@ nav{
     padding: 5px 0;
 }
 .logo{
-    width: 420px;
+    width: 480px;
     cursor: pointer;
 }
 .resume-icon{
@@ -50,4 +50,9 @@ nav ul li a::after{
     bottom: 0;
     left: 50%;
     tranform: translateX(-50px);
+    background: #fff;
+    transition: width 0.3s;
+}
+nav ul lia a:hover::after{
+    width: 50%;
 }
