@@ -21,7 +21,7 @@ nav{
     padding: 5px 0;
 }
 .logo{
-    width: 480px;
+    width: 400px;
     cursor: pointer;
 }
 .resume-icon{
@@ -74,5 +74,9 @@ nav ul lia a:hover::after{
 .text-box h3{
     font-size: 40px;
     font-weight: 500;
-
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
