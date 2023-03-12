@@ -130,15 +130,15 @@ body{
     height: 100%;
     width: 100%;
     border-left: 2px solid #FC6D6D;
-    animation: typing 1.5s steps(20) infinite;
+    /*animation: typing 1.5s steps(20) infinite;*/
 }
-@keyframes typing{
+/*@keyframes typing{
     100%{
         left: 100%;
         margin: 0 -35px 0 35px;
     }
 
-}
+}*/
 
 .text-box .row{
     display: flex;
