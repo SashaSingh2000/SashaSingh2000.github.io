@@ -16,7 +16,13 @@
     background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(Images/background.png)
 }
 .about-container {
-    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(Images/background.png)
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(Images/aboutBackground.png)
+}
+.projects-container {
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(Images/aboutBackground.png)
+}
+.resume-container {
+    background-image: linear-gradient(rgba(0,0,0,0.3), transparent),url(Images/aboutBackground.png)
 }
 nav {
     display: flex;
