@@ -85,11 +85,14 @@ nav ul li a:hover::after{
     font-size: 20px;
     font-weight: 500;
 }*/
-.wrapper{
+body{
     display: flex;
     align-items: left;
     justify-content: left;
     min-height: 100vh;
+}
+.wrapper{
+    display: flex;
 }
 .wrapper .static-txt{
     color: #fff;
@@ -139,8 +142,8 @@ nav ul li a:hover::after{
     100%{
         left: 0;
     }
-
 }
+
 .text-box .row{
     display: flex;
     align-items: center;
