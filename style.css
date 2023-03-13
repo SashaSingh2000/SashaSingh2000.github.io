@@ -66,7 +66,7 @@ nav ul li a:hover::after{
 
 }
 .text-box h1{
-    font-size: 190px;
+    font-size: 200px;
     line-height: 160px;
     margin-left: -10px;
     color: transparent;
@@ -83,75 +83,14 @@ nav ul li a:hover::after{
 }
 .text-box h3{
     font-size: 30px;
-    line-height: 160px;
-}
-/*body{
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    min-height: 100vh;
-}
-.wrapper{
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    min-height: 100vh;
-}
-.wrapper .static-txt{
-    color: #fff;
-    font-size: 30px;
-    font-weight: normal;
-}
-.wrapper .dynamic-txts{
-    margin-left: 15px;
-    height: 90px;
     line-height: 90px;
-    overflow: hidden;
 }
-.dynamic-txts li{
-    color: #FC6D6D;
-    list-style: none;
-    font-size: 30px;
-    font-weight: 500;
-    position: relative;
-    top: 0;
-    animation: slide 12s steps(4) infinite;
-}
-@keyframes slide{
-    100%{
-        top: -360px;
-        
-    }
-}
-.dynamic-txts li span{
-    position: relative;
-    margin: 5px 0;
-    line-height: 80px;
-
-}
-.dynamic-txts li span::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-left: 5px solid #FC6D6D;
-    animation: typing 3s steps(20) infinite;
-}
-@keyframes typing{
-    40%, 60%{
-        left: calc(100% + 30px);
-    }
-    100%{
-        left: 0;
-    }
-}*/
 
 .text-box .row{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 1px;
 }
 .text-box a{
     color: #a43642;
