@@ -90,7 +90,7 @@ nav ul li a:hover::after{
     align-items: left;
     justify-content: left;
     min-height: 100vh;
-}*/
+}
 .wrapper{
     display: flex;
     align-items: left;
@@ -145,7 +145,7 @@ nav ul li a:hover::after{
     100%{
         left: 0;
     }
-}
+}*/
 
 .text-box .row{
     display: flex;
