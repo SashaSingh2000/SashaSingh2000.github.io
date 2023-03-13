@@ -92,12 +92,12 @@ body{
     min-height: 100vh;
 }
 .wrapper{
-    display: inline-flex;
+    display: flex;
 }
 .wrapper .static-txt{
     color: #fff;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: normal;
 }
 .wrapper .dynamic-txts{
     margin-left: 15px;
@@ -112,7 +112,7 @@ body{
     font-weight: 500;
     position: relative;
     top: 0;
-    animation: slide 6s steps(4) infinite;
+    animation: slide 12s steps(4) infinite;
 }
 @keyframes slide{
     100%{
@@ -121,25 +121,29 @@ body{
     }
 }
 .dynamic-txts li span{
-    position: absolute;
+    position: relative;
+    margin: 5px 0;
+    line-height: 80px;
+
 }
-/*.dynamic-txts li span::after{
+.dynamic-txts li span::after{
     content: "";
     position: absolute;
     left: 0;
     height: 100%;
     width: 100%;
-    border-left: 2px solid #FC6D6D;
-    /*animation: typing 1.5s steps(20) infinite;*/
+    border-left: 5px solid #FC6D6D;
+    animation: typing 3s steps(20) infinite;
 }
-/*@keyframes typing{
+@keyframes typing{
+    40%, 60%{
+        left: calc(100% + 30px);
+    }
     100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
+        left: 0;
     }
 
-}*/
-
+}
 .text-box .row{
     display: flex;
     align-items: center;
